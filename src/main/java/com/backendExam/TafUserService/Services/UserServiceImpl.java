@@ -31,6 +31,7 @@ public class UserServiceImpl implements UserService {
         return userCreated;
     }
 
+
     @Override
     public User get(Long userId) {
         String datastoreUrl = datastore_url +"/users/" + userId;
