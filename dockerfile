@@ -1,4 +1,5 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM public.ecr.aws/docker/library/openjdk:17
+
 
 # Set the working directory in the container
 WORKDIR /app
